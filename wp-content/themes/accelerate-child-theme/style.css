@@ -48,3 +48,46 @@
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+/* SINGLE CASE STUDY STYLES */
+.case-study-content {
+	margin-top: 2em;
+}
+.case-study-sidebar {
+	width: 35%;
+	float: left;
+	height: 100%;
+	margin-right: 8%;
+}
+.case-study-sidebar h2 {
+	font-size: 1.6em;
+	font-family: 'Open Sans', 'Arial', sans-serif;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+.case-study-sidebar h5 {
+	margin: 0;
+	text-transform: capitalize;
+	font-weight: 300;
+	font-size: .875em;
+}
+.case-study-sidebar h6 {
+	margin: 0.5em 0 0.5em;
+	font-weight: 500;
+	font-size: 1em;
+}
+.case-study-sidebar a {
+	text-transform: uppercase;
+	color: #45ac9d;
+	font-weight: 700;
+	font-size: .875em;
+}
+
+
+.case-study-images {
+	width: 55%;
+	float: left;
+}
+.case-study-images img {
+	width: 100%;
+}
