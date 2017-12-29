@@ -21,6 +21,33 @@
 	background: #45ac9d;
 }
 
+.featured-work {
+	margin-bottom: 2em;
+}
+.featured-work .site-content {
+   display: block;
+}
+.featured-work .site-content h4 {
+   display: flex;
+   font-size: .875em;
+   justify-content: center;
+   margin-bottom: 2em;
+   text-transform: uppercase;
+}
+.homepage-featured-work {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	margin: 0;
+}
+.individual-featured-work h3{
+	font-size: .875em;
+	margin-top: 0.5em;
+	text-align: center;
+	text-transform: capitalize;
+}
+/*END HOMEPAGE STYLES*/
+
 /* BODY STYLES */
 #masthead {
   background: none repeat scroll 0 0 #45ac9d;
@@ -83,7 +110,6 @@
 	font-size: .875em;
 }
 
-
 .case-study-images {
 	width: 55%;
 	float: left;
@@ -91,3 +117,54 @@
 .case-study-images img {
 	width: 100%;
 }
+
+#navigation {
+	background: #fff;
+	border: solid #bfbfbf;
+	border-bottom: none;
+	border-width: 1px 0;
+	clear: both;
+	font: .8em/4.08 'OpenSans', Arial, sans-serif;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	margin-top: 5em;
+	text-align: center;
+}
+
+/*END CASE STUDY STYLES*/
+
+/*CASE STUDY ARCHIVE STYLES*/
+.case-study-sidebar .archive-title {
+	color: #000;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+/*END CASE STUDY ARCHIVE STYLES*/
+
+/*FOOTER STYLES*/
+.site-info .site-description p:first-of-type {
+	margin-top: 0;
+}
+.social-btns {
+	margin-bottom: 1.875em;
+}
+.social-btns a {
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+}
+.soc-icon.tw {
+	background: url(../accelerate-theme/img/twitter-icon.png) no-repeat center 0;
+	background-size: cover;
+}
+.soc-icon.fb {
+	background: url(../accelerate-theme/img/facebook-icon.png) no-repeat center 0;
+	background-size: cover;
+}
+.soc-icon.ln {
+	background: url(../accelerate-theme/img/linkedin-icon.png) no-repeat center 0;
+	background-size: cover;
+}
+
+/*END FOOTER STYLES*/

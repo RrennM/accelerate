@@ -20,7 +20,11 @@
 				</div>
 
 				<nav class="social-media-navigation" role="navigation">
-					<?php wp_nav_menu( array('theme_location' => 'social-media','menu_class'=>'social-media-menu')); ?>
+					<div class="social-btns">  <!-- populate or remove as many of these as you want -->
+						<a href="https://twitter.com/THHood85?lang=en" class="soc-icon tw"></a>
+						<a href="https://www.facebook.com/TysonHH" class="soc-icon fb"></a>
+						<a href="https://www.linkedin.com/in/tyson-hood-506194107/" class="soc-icon ln"></a>
+					</div>
 				</nav>
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
