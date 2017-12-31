@@ -59,7 +59,15 @@ get_header(); ?>
 					<?php endwhile; // end the while loop. ?>
 				<?php wp_reset_query(); ?>
 			</div>
+
+			<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+				<div id="secondary" class="widget-area" role="complementary">
+					<h4>Recent Tweet</h4>
+					<?php dynamic_sidebar( 'sidebar-2' ); ?>
+					<a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Flocalhost%2Faccelerate%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=THHood85&tw_p=followbutton" class="read-more-link">follow us ›</a>
+				</div>
 		</div>
 	</section>
+<?php endif; ?>
 
 <?php get_footer(); ?>

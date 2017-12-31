@@ -46,7 +46,6 @@
 	text-align: center;
 	text-transform: capitalize;
 }
-/*END HOMEPAGE STYLES*/
 
 /* BODY STYLES */
 #masthead {
@@ -55,17 +54,18 @@
 
 /* BLOG STYLES */
 .blog-post {
-	width: 50%;
+	width: 42.5%;
 	float: left;
 	margin-bottom: 2em;
+	margin-right: 14.5%
 }
-.blog-post h4 {
+.blog-post h4, .widget-area h4 {
 	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
 	color: #a6a6a6;
 	text-transform: uppercase;
 	margin 2em 0 .5em;
 }
-.blog-post h3 {
+.blog-post h3, .widget-area h3 {
 	font-size: 1.5em;
 }
 
@@ -75,6 +75,26 @@
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+/*TWITTER STYLES*/
+.widget-area#secondary {
+	width: 42.5%;
+	float: left;
+}
+
+.tweets {
+	margin-left: 0;
+	
+}
+.tweets li {
+	list-style: none;
+}
+
+.stt-em a {
+	display: none;
+}
+/*END TWITTER STYLES*/
+/*END HOMEPAGE STYLES*/
 
 /* SINGLE CASE STUDY STYLES */
 .case-study-content {
@@ -124,7 +144,7 @@
 	border-bottom: none;
 	border-width: 1px 0;
 	clear: both;
-	font: .8em/4.08 'OpenSans', Arial, sans-serif;
+	font: .8em/4.08 'Open Sans', Arial, sans-serif;
 	overflow: hidden;
 	position: relative;
 	z-index: 1;
@@ -168,3 +188,134 @@
 }
 
 /*END FOOTER STYLES*/
+
+/*CONTACT STYLES*/
+.page-id-47348 .site-content {
+	min-width: 320px;
+	width: 45%;
+}
+
+#nf-field-1-container, #nf-field-2-container {
+	width: 48%;
+	display: inline-block;
+}
+#nf-field-1-container {
+	margin-right: 1%;
+}
+#nf-field-2-container {
+	float: right;
+	margin-right: 0;
+}
+#nf-field-4 {
+	background-color: #45ac9d;
+	float: right;
+}
+/*END CONTACT STYLES*/
+
+/*ABOUT STYLES*/
+.hero-content.about {
+	padding: 5em;
+}
+.about .main-content {
+	padding-top: 0;
+}
+.hero_desc {
+	color: #fff;
+	font-size: 1.8em;
+	line-height: 1.4;
+	margin: 0 auto;
+	width: 50%;
+}
+
+.about-content {
+	margin: 0 auto;
+	max-width: 960px;
+	width: 90%;
+}
+
+.header-content {
+	margin: 0 auto 60px auto;
+	text-align: center;
+	width: 55%;
+}
+.header-content h4 {
+	text-transform: uppercase;
+}
+
+.about-line {
+	display: flex;
+	align-items: center;
+	margin: 0 auto 20px auto;
+	width: 100%;
+}
+.about-img, .about-text {
+	display: inline-block;
+}
+.about-img {
+	max-width: 20%;
+}
+.about-text {
+	width: 69%;
+}
+.about-img-odd, .about-text-even {
+	margin-right: 10%;
+}
+.about-text h2 {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 600;
+	font-size: 1.4em;
+}
+ .about-nav h2 {
+ 	width: 100%;
+	padding: 40px 0;
+}
+
+/*END ABOUT STYLES*/
+
+/*404 STYLES*/
+.lost {
+	background: url("img/lostcat.png") no-repeat center 0;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	height: 600px;
+	margin: 0 auto;
+	max-width: 960px;
+	width: 80%;
+}
+
+.lost .container {
+	background-color: #444;
+	color: #fff;
+	float: left;
+	font-family: 'Open Sans', Arial, sans-serif;
+	height: auto;
+	padding:  0 20px 20px 20px;
+	text-align: center;
+	width: 50%;
+}
+.lost .container h1 {
+	color: #fff;
+	font-size: 2em;
+	font-weight: 500;
+	line-height: 1.5;
+	margin: 0;
+}
+.lost .container p {
+	color: #fff;
+}
+.lost .container span {
+	text-transform: uppercase;
+}
+.lost .container #cat {
+	font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+	text-decoration: line-through;
+}
+/*END 404 STYLES*/
+
+/*BLOG PAGE STYLES*/
+.submit.btn {
+	background-color: #45ac9d;
+}
+
+/*END BLOG PAGE STYLES*/
